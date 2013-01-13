@@ -7,10 +7,10 @@ gem 'rails', '3.2.10'
 
 gem 'pg'
 
-#group :development do
+group :development do
 
- #     gem 'sqlite3'
-#end
+     gem 'sqlite3'
+end
 
 
 
