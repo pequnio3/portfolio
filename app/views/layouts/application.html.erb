@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+
+    <div id="header" data-role="header">
+
+      <ul id="navigation">
+	<li><a id="link-home" href="#home"> <%= image_tag "icons/logo.png", {:height=>"100%", :width=>"100%"} %></a></li>
+	<li><a id="link-projects" href="#projects"><%= image_tag "icons/projects.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Projects</span></a></li>
+	<li><a id="link-work" href="#work"><%= image_tag "icons/work.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Work</span></a></li>
+	<li><a id="link-about" href="#about"><%= image_tag "icons/about.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">About</span></a></li>
+      </ul>
+    </div>
+
+
+    <%= yield %>
+    <script type="text/javascript">
+      initProjectSlideShow();
+      initContentViewers();
+    </script>
+
+  </body>
+    <script type="text/javascript">
+      if(window.location.href.indexOf("#") <0)
+{
+      window.location = window.location.href + "#home";
+}
+    </script>
+</html>

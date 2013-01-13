@@ -1,0 +1,50 @@
+
+function initTiles()
+{
+    $("#projects .nav li").each(
+	function()
+	{
+	    var pclass = $(this).attr("class").split(' ')[0];
+	    $("#projects .nav .".concat(pclass," a")).click(
+		function()
+		{
+
+		    tileIn(pclass);
+		}
+	    );
+
+	    $(this).click(
+		function()
+		{
+		    $("#projects .nav li").removeClass("selected");
+		    $(this).addClass("selected");
+		}
+	    );
+	}
+    );
+}
+
+function tileIn(pclass)
+{
+    $($('#projects #project_list .all').get().reverse()).each(
+	function(i)
+	{
+	    $(this).delay(i*50).fadeOut(500);
+	}
+    );
+    $('#projects #project_list .all').promise().done(
+	function()
+	{
+	    $("#projects #project_list .".concat(pclass)).each(
+		function(i)
+		{
+		    
+		    $(this).delay(i*50).fadeIn(500);
+		    
+
+		}
+	    );
+
+	}
+    )
+}

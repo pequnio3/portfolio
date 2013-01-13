@@ -1,0 +1,79 @@
+#header                                                                                                                                                                             
+{
+    position: fixed;
+    z-index: 2000;
+    top: 0px;
+}
+
+#navigation {
+
+    list-style:none;
+    z-index:3;
+    text-align:center;
+}
+
+#navigation li                                                                                                                                                                      
+{
+    margin-top:15px;
+    margin-left:15px;
+}
+
+#navigation a{
+    display: block;
+    line-height:15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#navigation #link-projects                                                                                                                                                          
+{
+    height: 50px;
+    width: 50px;
+    padding-left:24px;
+}
+
+#navigation #link-work                                                                                                                                                              
+{
+    height: 50px;
+    width: 50px;
+    padding-left:25px;
+}
+#navigation #link-about                                                                                                                                                             
+{
+    height: 50px;
+    width: 35px;
+    padding-left:29px;
+
+}
+
+
+#navigation #link-home                                                                                                                                                              
+{
+    margin-bottom:15px;
+    margin-top:0px;
+    height: 140px;
+    width: 100px;
+}
+
+#navigation li .link-text
+{
+	opacity:0;
+}
+
+#navigation li:hover .link-text
+{
+
+	opacity:1;
+}
+
+#home:target ~ #header #navigation #link-home,
+#projects:target ~ #header #navigation #link-projects,
+#work:target ~ #header #navigation #link-work,
+#about:target ~ #header #navigation #link-about
+{
+	background: #000;
+	color: #fff;
+}

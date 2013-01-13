@@ -1,0 +1,5 @@
+<%= render :partial => "home/home" %>
+
+<%= render :partial => "home/projects" %>
+<%= render :partial => "home/project-pcr" %>
+

@@ -1,0 +1,21 @@
+<div id="project-pcr" class="panel content">
+
+    <ol class="project-slideshow">
+      <li class="selected" ><div></div><span></span></li>
+      <li ><div></div><span></span></li>
+      <li ><div></div><span></span></li>
+    </ol>
+
+
+  <div class="info_panel">
+    <div class="ip_title">
+      Photo Character Recognition
+    </div>
+
+    <div class="ip_content">
+      We did some bullshit to determine text in images.  
+    </div>
+
+  </div>
+
+</div>

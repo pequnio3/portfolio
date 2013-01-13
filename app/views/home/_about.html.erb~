@@ -1,0 +1,14 @@
+<div id="about" class="panel content">
+
+  <h2 class="title">About</h2>
+  <br>
+
+  <ul class="nav">
+    <li class="link-person"><a>The Person</a></li>
+    <li class="link-designer"><a>The Engineer</a></li>
+    <li class="link-engineer"><a>The Designer</a></li>
+    <li class="link-athlete"><a>The Athlete</a></li>
+  </ul>
+
+
+</div>

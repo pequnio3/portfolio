@@ -1,0 +1,48 @@
+.content_viewer
+{
+    
+    position:relative;
+    overflow:visible;
+    height:100%;
+    width:100%;
+}
+.content_viewer .viewable_content
+{
+position:absolute;
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    -ms-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+}
+.content_viewer .viewable_content.selected
+{
+    opacity:1;
+    visibility:visible;
+
+}
+
+
+.content_viewer ul li
+{
+    float:left;
+    margin-right:45px;
+}
+
+
+
+.content_viewer .selectable_nav
+
+{
+position:relative;
+}
+.content_viewer .selectable_nav li
+{
+    float:left;
+    margin-right:45px;
+    margin-top:8px;
+    margin-bottom:37px;
+    cursor:pointer;
+}

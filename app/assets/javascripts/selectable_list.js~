@@ -1,0 +1,15 @@
+function initSelectableLists()
+{
+    $(".selectable_list li").each(
+	function()
+	{
+	    $(this).click(
+		function()
+		{
+		    $("#projects .nav li").removeClass("selected");
+		    $(this).addClass("selected");
+		}
+	    );
+	}
+    );
+}

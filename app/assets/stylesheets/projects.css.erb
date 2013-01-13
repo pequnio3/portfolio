@@ -1,0 +1,82 @@
+#projects .background
+{
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+    background: url(<%=image_path "projects/proj2.jpg" %>);
+    background-size: contain;
+    z-index:-10;
+}
+
+#projects .nav
+{
+    margin-top:8px;
+    margin-bottom:37px;
+}
+
+
+
+
+#projects #project_list li
+{
+	float:left;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+#projects .project_image
+{
+    height:200px;
+    width:200px;
+    border:2px solid;
+    border-radius:20px;
+}
+
+#projects .project_link
+{
+    height:100%;
+    width:100%;
+
+}
+
+#projects #image-pcr
+{
+    background: url(<%=image_path "projects/proj1.jpg" %>);
+    background-size: contain;
+}
+
+#projects #project_list li:hover .project_text
+{
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+
+
+#projects .project_text
+{
+
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+
+    margin-top:8px;
+    font-size:14px;
+    text-align:center;
+}
+
+#project-pcr:target ~ #projects  #project_list #link-pcr
+{
+	background: #000;
+	color: #fff;
+}
+
+

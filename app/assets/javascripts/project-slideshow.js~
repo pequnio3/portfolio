@@ -1,0 +1,14 @@
+function initProjectSlideShow()
+{
+    $(".project-slideshow li div").click(
+	function()
+	{
+	    var parent_li = $(this).parent();
+	    var span = parent_li.find("span");
+	    span.fadeIn(1000);
+	    $(".project-slideshow li").not(parent_li).find("span").fadeOut(1000);
+	    $(".project-slideshow li div").attr("class","");
+	    $(this).attr("class","selected");
+	}
+    );
+};
