@@ -25,9 +25,9 @@ height:20px;
 background: url(<%=image_path "icons/wheel.png" %>) no-repeat;
 background-size: contain;
 margin-left:10px;
-
-	opacity:0.7;
+opacity:0.7;
 }
+
 .project-slideshow li:nth-child(1) div
 {
 margin-left:0px;
@@ -55,6 +55,11 @@ opacity:1;
 opacity:1;
 }
 
+.project-slideshow li.selected .video
+{
+display:block;
+}
+
 .project-slideshow li span
 {
 z-index:-10;
@@ -73,6 +78,18 @@ opacity:0;
 -ms-transition: opacity .6s ease-in-out;
 transition: opacity .6s ease-in-out;
 
+
+}
+
+.project-slideshow li .video
+{
+display:none;
+position:absolute;
+
+top:150px;
+bottom:0px;
+left:200px;
+right:0px;
 
 }
 

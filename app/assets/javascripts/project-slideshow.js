@@ -4,7 +4,8 @@ function initProjectSlideShow()
 	function()
 	{
 	    var parent_li = $(this).parent();
-	    $(".project-slideshow li").attr("class","");
+	    var parent_ps = parent_li.parent();
+	    parent_ps.find("li").attr("class","");
 	    parent_li.attr("class","selected");
 	}
     );

@@ -1,0 +1,31 @@
+<div id="project-cashier" class="panel content">
+  
+  <ul class="project-slideshow">
+    <li class="selected" >
+      <div></div>
+      <span>
+      </span>
+<iframe class="video" width="640" height="480" src="http://www.youtube.com/embed/7Xdi_ujYGGU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+    </li>
+    <li ><div></div><span></span></li>
+  </ul>
+
+
+  <div class="info_panel">
+
+    <div class="ip_title">
+      Cashier Robot
+      <div class="ip_icon">
+      </div>
+    </div>
+
+
+
+    <div class="ip_content">
+      cashier info.
+    </div>
+
+  </div>
+
+</div>

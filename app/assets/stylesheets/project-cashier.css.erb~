@@ -1,0 +1,19 @@
+#project-cashier .info_panel:hover
+{
+	height:360px;
+}
+#project-cashier .info_panel .ip_content a
+{
+	color:#0000FF;
+}
+
+#project-cashier .project-slideshow li:nth-child(1) span
+{
+background-image: url(<%= image_path "projects/cashier/cashier-buttons.jpg" %>);
+}
+
+#project-cashier .project-slideshow li:nth-child(3) span
+{
+background-image: url(<%= image_path "projects/cashier/cashier-buttons.jpg" %>);
+}
+
