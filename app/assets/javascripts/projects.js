@@ -1,17 +1,34 @@
 
 function initTiles()
 {
-    $("#projects .nav li").each(
+    $("#projects .selectable_nav li").each(
 	function()
 	{
-	    var pclass = $(this).attr("class").split(' ')[0];
-	    $("#projects .nav .".concat(pclass," a")).click(
-		function()
-		{
 
-		    tileIn(pclass);
+	    var classes = $(this).attr("class")
+
+	    var regexp = /select-(\w+)/g;
+	    var matches = regexp.exec(classes);
+	    if(matches)
+	    {
+		for (var i=1; i< matches.length; i++)
+		{
+		    var match = matches[i];
+
+		    $("#projects .selectable_nav .select-".concat(match," span")).click(
+			function()
+			{
+			    tileIn(match);
+			}
+		    );
+
+
 		}
-	    );
+	    }
+
+
+
+
 
 
 	}

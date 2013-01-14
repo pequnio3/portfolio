@@ -1,0 +1,50 @@
+#work .content_viewer .viewable_content .image
+{
+	float:left;
+	border-radius:10px;
+	border: 0px #000 solid;
+	height:400px;
+	width:300px;
+	margin-right:60px;
+}
+#work .info
+{
+	float:left;
+	width: 600px;
+}
+
+
+
+#work .content_viewer .viewable_content.palantir .image
+{
+	background:url(<%= image_path "work/palantir.png"%>) no-repeat;
+	background-size:contain;
+}
+
+#work .content_viewer .viewable_content.akamai .image
+{
+	background:url(<%= image_path "work/akamai.png"%>) no-repeat;
+	background-size:contain;
+	border: 2px #000 solid;
+}
+
+
+#work .content_viewer .viewable_content.sail .image
+{
+	background:url(<%= image_path "work/sail.png"%>) no-repeat;
+	background-size:contain;
+
+}
+
+#work .content_viewer .viewable_content.sail h1
+{
+	font-size:30px;
+}
+
+
+#work .content_viewer .viewable_content.stanford .image
+{
+	background:url(<%= image_path "work/stanfordlogo.png"%>) no-repeat;
+	background-size:contain;
+	border: 2px #000 solid;
+}

@@ -1,15 +1,36 @@
-
-
-#about .image
+#about .content_viewer .viewable_content .image
 {
 	float:left;
 	background:#000;
 	height:400px;
 	width:300px;
 	border-radius: 10px;
+	border: 2px #000 solid;
 	margin-right:100px;
 }
 #about .info
 {
 	float:left;
+}
+
+
+#about .content_viewer .viewable_content.person .image
+{
+	background:url(<%= image_path "about/person.jpg"%>) no-repeat;
+	background-size:contain;
+}
+
+#about .content_viewer .viewable_content.engineer .image
+{
+	background:url(<%= image_path "about/engineer.jpg"%>) no-repeat;
+	background-size:contain;
+	border: 2px #000 solid;
+}
+
+
+#about .content_viewer .viewable_content.designer .image
+{
+	background:url(<%= image_path "about/designer.jpg"%>) no-repeat;
+	background-size:contain;
+
 }

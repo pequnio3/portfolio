@@ -12,10 +12,10 @@
     <div id="header" data-role="header">
 
       <ul id="navigation">
-	<li><a id="link-home" href="#home"> <%= image_tag "icons/logo.png", {:height=>"100%", :width=>"100%"} %></a></li>
-	<li><a id="link-projects" href="#projects"><%= image_tag "icons/projects.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Projects</span></a></li>
-	<li><a id="link-work" href="#work"><%= image_tag "icons/work.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Work</span></a></li>
-	<li><a id="link-about" href="#about"><%= image_tag "icons/about.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">About</span></a></li>
+	<li id="nav-home"><a id="link-home" href="#home"> <%= image_tag "icons/logo.png", {:height=>"100%", :width=>"100%"} %></a></li>
+	<li id="nav-projects"><a id="link-projects" href="#projects"><%= image_tag "icons/projects.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Projects</span></a></li>
+	<li id="nav-work"><a id="link-work" href="#work"><%= image_tag "icons/work.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Work</span></a></li>
+	<li id="nav-about"><a id="link-about" href="#about"><%= image_tag "icons/about.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">About</span></a></li>
       </ul>
     </div>
 
@@ -28,9 +28,13 @@
 
   </body>
     <script type="text/javascript">
+
       if(window.location.href.indexOf("#") <0)
 {
       window.location = window.location.href + "#home";
 }
+
+
+
     </script>
 </html>

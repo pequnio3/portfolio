@@ -1,0 +1,20 @@
+$(window).bind('hashchange', function() {
+if(window.location.hash == "#projects")
+{
+$("#header #navigation .link-text").css("opacity","0");
+$("#header #navigation #nav-projects .link-text").css("opacity","1");
+}else if(window.location.hash == "#work")
+{
+$("#header #navigation .link-text").css("opacity","0");
+$("#header #navigation #nav-work .link-text").css("opacity","1");
+}else if(window.location.hash == "#about")
+{
+$("#header #navigation .link-text").css("opacity","0");
+$("#header #navigation #nav-about .link-text").css("opacity","1");
+}else
+{
+$("#header #navigation .link-text").css("opacity","0");
+}
+
+});
+					      

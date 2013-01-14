@@ -1,31 +1,13 @@
-#projects .background
-{
-	position:fixed;
-	left:0px;
-	right:0px;
-	top:0px;
-	bottom:0px;
-    background: url(<%=image_path "projects/proj2.jpg" %>);
-    background-size: contain;
-    z-index:-10;
-}
-
-#projects .nav
-{
-    margin-top:8px;
-    margin-bottom:37px;
-}
-
 
 
 
 #projects #project_list li
 {
 	float:left;
-    margin-right:30px;
+    margin-right:15px;
     margin-bottom:30px;
 }
-#projects .project_image
+#projects #project_list .image
 {
     height:200px;
     width:200px;
@@ -33,17 +15,17 @@
     border-radius:20px;
 }
 
-#projects .project_link
+#projects #project_list .project_link
 {
     height:100%;
     width:100%;
 
 }
 
-#projects #image-pcr
+#projects #project_list #link-pcr .image
 {
-    background: url(<%=image_path "projects/proj1.jpg" %>);
-    background-size: contain;
+    background: url(<%=image_path "projects/pcr/storefront.jpg" %>);
+    background-size: cover;
 }
 
 #projects #project_list li:hover .project_text

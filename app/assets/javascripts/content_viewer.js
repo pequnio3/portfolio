@@ -22,11 +22,14 @@ function initContentViewers()
 
 				    var regexp = /select-(\w+)/g;
 				    var matches = regexp.exec(classes);
-				    for (var i=1; i< matches.length; i++)
+				    if(matches)
 				    {
-					var match = matches[i];
+					for (var i=1; i< matches.length; i++)
+					{
+					    var match = matches[i];
 
-					viewer.find(".viewable_content.".concat(match)).addClass("selected");
+					    viewer.find(".viewable_content.".concat(match)).addClass("selected");
+					}
 				    }
 				}
 			    );

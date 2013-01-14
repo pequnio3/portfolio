@@ -32,6 +32,10 @@ body {
 	visibility:visible;
 }
 
+.panel:target{
+	opacity: 1;
+}
+
 
 
 body > div.content{
@@ -46,8 +50,9 @@ body > div.content h2{
     float:right;
     width: 100%;
     text-align: right;
-    font-size: 110px;
-    margin: 0px;
+    font-size: 100px;
+    margin-top: 11px;
+
 
 }
 body div.content br{
