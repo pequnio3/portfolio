@@ -1,4 +1,8 @@
-#about .content_viewer .viewable_content .image
+#about > div
+{
+margin-top:57px;
+}
+#about .image
 {
 	float:left;
 	background:#000;
@@ -7,36 +11,14 @@
 	border-radius: 10px;
 	border: 2px #000 solid;
 	margin-right:30px;
+	background:url(<%= image_path "about/me.jpg"%>) no-repeat;
+	background-size:cover;
 }
 #about .info
 {
 	float:left;
 	width: 600px;
 	font-family: 'Helvetica';
-	font-size:14px;
+	font-size:16px;
 	line-height:1.5;
-}
-
-
-
-
-#about .content_viewer .viewable_content.person .image
-{
-	background:url(<%= image_path "about/person.jpg"%>) no-repeat;
-	background-size:contain;
-}
-
-#about .content_viewer .viewable_content.engineer .image
-{
-	background:url(<%= image_path "about/engineer.jpg"%>) no-repeat;
-	background-size:contain;
-	border: 2px #000 solid;
-}
-
-
-#about .content_viewer .viewable_content.designer .image
-{
-	background:url(<%= image_path "about/designer.jpg"%>) no-repeat;
-	background-size:contain;
-
 }
