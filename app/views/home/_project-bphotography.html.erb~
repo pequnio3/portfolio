@@ -1,0 +1,43 @@
+<div id="project-youmote" class="panel content">
+  
+  <ul class="project-slideshow">
+    <li class="selected" >
+      <div></div>
+      <span>
+      </span>
+
+    </li>
+    <li>
+      <div></div>
+      <span>
+      </span>
+
+
+    </li>
+
+  </ul>
+
+
+  <div class="info_panel">
+
+    <div class="ip_title">
+      Youmote
+      <div class="ip_icon">
+      </div>
+    </div>
+
+
+
+    <div class="ip_content">
+      <p>
+While in the second quarter of my master's program, I enrolled in CS247: Interaction Design Studio in which students were provided a Microsoft Kinect and instructed to incorporate it into a novel application.  My group focused on designing new ways to interact with the television.  We recognized that currently the users watch TV, yet with the Kinect technology, we could make the TV watch the users.  With this in mind, we used the Kinect's body detection to recognize when users entered the room, exited the room, fell asleep, received a phone call, raised their arm, or swiped their hand.  Upon detecting these situations, the application turned on or off TV, paused the TV or changed the TV's volume or channel.
+      </p>
+<br>
+<p>
+For more information, please visit Youmote's <a href="http://www.stanford.edu/~kennykao/cgi-bin/CS247-P4-Website/"> website</a>.
+</p>
+    </div>
+
+  </div>
+
+</div>

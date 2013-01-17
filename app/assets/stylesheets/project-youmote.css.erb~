@@ -1,0 +1,39 @@
+#project-bphotography .info_panel:hover
+{
+	height:250px;
+}
+#project-bphotography .info_panel .ip_content a
+{
+	color:#0000FF;
+}
+
+#project-bphotography .project-slideshow li:nth-child(3) span
+{
+background-image: url(<%= image_path "projects/bphotography/train1.jpg" %>);
+}
+
+#project-bphotography .project-slideshow li:nth-child(2) span
+{
+background-image: url(<%= image_path "projects/bphotography/train2.jpg" %>);
+}
+
+#project-bphotography .project-slideshow li:nth-child(5) span
+{
+background-image: url(<%= image_path "projects/bphotography/cove1.jpg" %>);
+}
+
+#project-bphotography .project-slideshow li:nth-child(6) span
+{
+background-image: url(<%= image_path "projects/bphotography/cove2.jpg" %>);
+}
+
+#project-bphotography .project-slideshow li:nth-child(1) span
+{
+background-image: url(<%= image_path "projects/bphotography/bridge1.jpg" %>);
+}
+
+#project-bphotography .project-slideshow li:nth-child(4) span
+{
+background-image: url(<%= image_path "projects/bphotography/bridge2.jpg" %>);
+}
+

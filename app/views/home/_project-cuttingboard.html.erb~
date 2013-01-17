@@ -1,0 +1,40 @@
+<div id="project-cashier" class="panel content">
+  
+  <ul class="project-slideshow">
+    <li class="selected" >
+   <div></div><span></span></li>
+
+    <li >
+      <div></div>
+      <span>
+      </span>
+
+<iframe class="video" src="http://player.vimeo.com/video/57358550?byline=0&amp;portrait=0" width="600" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+    </li>
+
+  </ul>
+
+
+  <div class="info_panel">
+
+    <div class="ip_title">
+      Cashier Robot
+      <div class="ip_icon">
+      </div>
+    </div>
+
+
+
+    <div class="ip_content">
+<p>
+I participated in the Stanford Computer Science Undergraduate Research Internship (CURIS) during the summer of 2010 and collaborated with the Stanford AI Laboratory to enable Willow Garage's PR2 robot to mimic a cashier's duties.  Its tasks entailed grasping groceries, identifying products via their barcode and placing them in a checkout bag.  We employed machine learning techniques and control algorithms and designed a module that allowed the PR2 to perform these tasks.</p>
+<br>
+<p>
+The 2011 International Conference on Robotics and Automation (ICRA) published our paper which is available <a href="http://ai.stanford.edu/~ang/papers/icra11-GraspingCheckoutRobot.pdf"> here</a>.
+</p>
+    </div>
+
+  </div>
+
+</div>

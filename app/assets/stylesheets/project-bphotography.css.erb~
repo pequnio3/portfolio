@@ -1,0 +1,19 @@
+#project-pcr .info_panel:hover
+{
+	height:440px;
+}
+#project-pcr .info_panel .ip_content a
+{
+	color:#0000FF;
+}
+
+#project-pcr .project-slideshow li:nth-child(2) span
+{
+background-image: url(<%= image_path "projects/pcr/storefront.jpg" %>);
+}
+
+#project-pcr .project-slideshow li:nth-child(1) span
+{
+background-image: url(<%= image_path "projects/pcr/data.png" %>);
+}
+
