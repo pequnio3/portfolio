@@ -12,29 +12,28 @@
     <div id="header" data-role="header">
 
       <ul id="navigation">
-	<li id="nav-home"><a id="link-home" href="#home"> <%= image_tag "icons/logo.png", {:height=>"100%", :width=>"100%"} %></a></li>
-	<li id="nav-projects"><a id="link-projects" href="#projects"><%= image_tag "icons/projects.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Projects</span></a></li>
-	<li id="nav-work"><a id="link-work" href="#work"><%= image_tag "icons/work.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Work</span></a></li>
-	<li id="nav-about"><a id="link-about" href="#about"><%= image_tag "icons/about.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">About</span></a></li>
+	<li id="nav-home"><a id="link-home" href="/home/home"> <%= image_tag "icons/logo.png", {:height=>"100%", :width=>"100%"} %></a></li>
+	<li id="nav-projects"><a id="link-projects" href="/home/projects"><%= image_tag "icons/projects.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Projects</span></a></li>
+	<li id="nav-work"><a id="link-work" href="/home/work"><%= image_tag "icons/work.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">Work</span></a></li>
+	<li id="nav-about"><a id="link-about" href="/home/about"><%= image_tag "icons/about.png", {:height=>"100%", :width=>"100%"} %> <span class="link-text">About</span></a></li>
       </ul>
     </div>
 
+    <div id="content">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
     <script type="text/javascript">
-      initProjectSlideShow();
-      initContentViewers();
+
+      $(document).pjax("#navigation a","#content");
+      $(document).on('pjax:send', function() {
+      $("#content").css("display","none");
+      })
+      $(document).on('pjax:complete', function() {
+      $("#content").fadeIn();
+
+      })
     </script>
 
   </body>
-    <script type="text/javascript">
-
-      if(window.location.href.indexOf("#") <0)
-{
-      window.location = window.location.href + "#home";
-}
-
-
-
-    </script>
 </html>

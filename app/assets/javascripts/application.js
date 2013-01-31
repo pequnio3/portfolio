@@ -11,4 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery.min
+//= require jquery.pjax
 //= require_tree .
+

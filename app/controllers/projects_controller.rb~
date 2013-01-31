@@ -1,0 +1,19 @@
+class ProjectsController < ApplicationController
+  def cashier
+  end
+
+  def cuttingboard
+  end
+
+  def elevator
+  end
+
+  def pcr
+  end
+
+  def youmote
+  end
+
+  def bphotography
+  end
+end

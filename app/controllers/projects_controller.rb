@@ -1,23 +1,35 @@
-class HomeController < ApplicationController
-  def about
+class ProjectsController < ApplicationController
+  def cashier
     if request.headers['X-PJAX']
       render :layout => false
     end
   end
 
-  def home
+  def cuttingboard
     if request.headers['X-PJAX']
       render :layout => false
     end
   end
 
-  def projects
+  def elevator
     if request.headers['X-PJAX']
       render :layout => false
     end
   end
 
-  def work
+  def pcr
+    if request.headers['X-PJAX']
+      render :layout => false
+    end
+  end
+
+  def youmote
+    if request.headers['X-PJAX']
+      render :layout => false
+    end
+  end
+
+  def bphotography
     if request.headers['X-PJAX']
       render :layout => false
     end

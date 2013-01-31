@@ -1,6 +1,25 @@
 Website::Application.routes.draw do
-  get "home/index"
-  root :to => "home#index"
+  get "projects/cashier"
+
+  get "projects/cuttingboard"
+
+  get "projects/elevator"
+
+  get "projects/pcr"
+
+  get "projects/youmote"
+
+  get "projects/bphotography"
+
+  get "home/work"
+
+  get "home/home"
+
+  get "home/projects"
+
+  get "home/about"
+
+  root :to => "home#home"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

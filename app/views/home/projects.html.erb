@@ -1,0 +1,127 @@
+<div id="projects">
+  <h2 class="title">Projects</h2>
+  <br>
+  <div class="content_viewer">
+  <ul class="selectable_nav">
+    <li class="select-all selected"><div class="logo_hook"></div><span>View All</span></li>
+    <li class="select-engineering"><div class="logo_hook"></div><span>Engineering</span></li>
+    <li class="select-design"><div class="logo_hook"></div><span>Design</span></li>
+    <li class="select-personal"><div class="logo_hook"></div><span>Personal</span></li>
+  </ul>
+  </div>
+  <script type="text/javascript" >
+    initTiles();
+  </script>
+  <br>
+
+    <ul id="project_list" >
+      <li class="all engineering">
+	<a id="link-pcr" href="/projects/pcr" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Photo Character Recognition
+	</div>
+      </li>
+
+      <li class="all engineering">
+	<a id="link-elevator" href="/projects/elevator" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Elevator Robot
+	</div>
+      </li>
+
+
+      <li class="all engineering">
+	<a id="link-cashier" href="/projects/cashier" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Cashier Robot
+	</div>
+      </li>
+
+      <li class="all personal design">
+	<a id="link-bphotography" href="/projects/bphotography" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Boston Photography
+	</div>
+      </li>
+
+
+      <li class="all engineering design">
+	<a id="link-youmote" href="/projects/youmote" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Youmote
+	</div>
+      </li>
+
+
+      <li class="all personal design">
+	<a id="link-cuttingboard" href="/projects/cuttingboard" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Cutting Board
+	</div>
+      </li>
+
+
+
+<!--
+      <li class="all engineering">
+	<a id="link-dcmap" href="#project-dcmap" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Akamai Datacenter Maps
+	</div>
+      </li>
+
+      <li class="all engineering design">
+	<a id="link-quizlr" href="#project-quizlr" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Quizlr
+	</div>
+      </li>
+
+
+
+      <li class="all engineering">
+	<a id="link-flows" href="#project-flows" class="project_link">
+	  <div class="image" >
+	  </div>
+	</a>
+	<div class="project_text">
+	  Palantir Flows
+	</div>
+      </li>
+
+
+-->
+
+
+    </ul>
+
+
+</div>
+
+<script type="text/javascript">
+      $(document).pjax("#projects #project_list a","#content");
+</script>

@@ -1,15 +1,13 @@
 #home .title
 {
-	position:relative;
+	position:absolute;
 	left:40px;
 	top: 83px;
-	
 }
-#home .title div
+#home .title span
 {
 	font-size:75px;
 	font-weight:bold;
-	
 }
 
 #home .title p
@@ -22,6 +20,15 @@
 	
 }
 
+#home .disclaimer
+{
+	position:fixed;
+	bottom:8px;
+	left:8px;
+	font-size:15px;
+	opacity:0.5;
+}
+
 #home .logo_hook
 {
 	background: url(<%=image_path "icons/logo_hook.png"%>) no-repeat;
@@ -31,5 +38,4 @@
 	width:80px;
 	height:40px;
 	float:left;
-
 }

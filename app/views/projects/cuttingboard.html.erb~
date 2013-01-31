@@ -1,0 +1,49 @@
+<div id="project-cuttingboard">
+<style>
+#project-cuttingboard .info_panel:hover
+{
+	height:230px;
+}
+
+</style>  
+  <ul class="project-slideshow">
+    <li class="selected" >
+   <div></div>
+   <span style='background-image: url(<%= image_path "projects/cuttingboard/board1.jpg" %>);'>
+   </span>
+    </li>
+
+    <li >
+      <div></div>
+      <span style='background-image: url(<%= image_path "projects/cuttingboard/board2.jpg" %>);'>
+      </span>
+    </li>
+
+    <li >
+      <div></div>
+      <span style='background-image: url(<%= image_path "projects/cuttingboard/board3.jpg" %>);'>
+      </span>
+    </li>
+
+  </ul>
+
+
+  <div class="info_panel">
+
+    <div class="ip_title">
+      Cutting Board
+      <div class="ip_icon">
+      </div>
+    </div>
+
+
+
+    <div class="ip_content">
+<p>
+I crafted a wooden cutting board for my first woodworking project and made it of maple and purple heart with a teak inlay.  Using a band saw, I cut the curved section from both the maple and purple heart and then lasered an impression into the board where I inserted the teak inlay.
+</p>
+    </div>
+
+  </div>
+
+</div>
